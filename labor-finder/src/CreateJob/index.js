@@ -8,7 +8,7 @@ class CreateJob extends Component{
       description: '',
       budget: '',
       date: '',
-      pickupAvailable: false,
+      pickupAvailable: true,
       contactInfo: '',
     }
   }
