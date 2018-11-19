@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import JobContainer from './JobContainer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Labor Finder</h1>
+        <JobContainer />
       </div>
     );
   }
